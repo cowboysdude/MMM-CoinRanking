@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+.MMM-CoinRanking  { 
+    width: 600px;
+	line-height: 30%;
+}
+.MMM-CoinRanking .fonts {
+	
+}
+.MMM-CoinRanking .th {
+	font-size: 14px; 
+    text-align: left; 
+	padding-right: 10px;
+	color: white;
+}
+.MMM-CoinRanking .td { 
+    width: 20%;
+    font: normal 12px Arial, sans-serif; 
+}
+.MMM-CoinRanking .text {
+	text-align: center;
+} 
