@@ -1,7 +1,7 @@
 # MMM-CoinRanking
 Crypto Coin Ranking
 
-Shows coin ranking for Crypto Currencies.
+Shows coin ranking for Crypto Currencies.  NO api key needed..... install set config..... enjoy.
 
  ![](Capture.PNG)
 
