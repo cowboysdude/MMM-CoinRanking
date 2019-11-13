@@ -27,13 +27,11 @@ Module.register('MMM-CoinRanking', {
     getDom: function() { 
 	
 	    var wrapper = document.createElement("div");
-		wrapper.classList.add("small","bright");
-		wrapper.style.color = "magenta";
-		wrapper.style.fontFamily = 'Roboto';
-		wrapper.style.fontSize = '78%';
-		wrapper.style.paddingTop = "14px";
-		wrapper.style.lineHeight = "1";
-		wrapper.innerHTML = "Cryptocurrency  Values";
+		 
+		var header = document.createElement("header");
+         header.classList.add("small", "bright", "header");
+         header.innerHTML = "Crypto Values";
+         wrapper.appendChild(header);
 		 
         var tablewrapper = document.createElement("table");
 		tablewrapper.style.width = "35%";

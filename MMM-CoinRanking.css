@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-
 .MMM-CoinRanking  { 
     width: 600px;
 	line-height: 30%;
-}
-.MMM-CoinRanking .fonts {
 	
+	padding: 15px 10px 5px 10px;
+}
+.MMM-CoinRanking .header {
+	padding-top: 10px;
+	width: 30%;
 }
 .MMM-CoinRanking .th {
 	font-size: 14px; 

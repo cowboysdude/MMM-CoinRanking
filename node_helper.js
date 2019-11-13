@@ -25,9 +25,7 @@ module.exports = NodeHelper.create({
         }, (error, response, body) => {
             if (!error && response.statusCode === 200) {
                 var items = JSON.parse(body).data.coins;
-
 				result = items.slice(0, this.config.topcoins);
-				
                 this.sendSocketNotification("COINS_RESULTS", result);
 			}	
         });
